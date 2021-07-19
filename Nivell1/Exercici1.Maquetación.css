@@ -1,0 +1,396 @@
+* {
+    box-sizing:border-box;  
+  }
+  
+  body, html {
+    height: 100vh;
+    margin: 0%;
+  }
+
+  body {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    background-color: black;
+    padding: 1rem;
+    height: 25%;
+    width: 100%;
+}
+
+.cajaPadre {
+    background-color: rgb(24, 11, 207);
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+.cajaAbajo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #c46e0d;
+  height: 45%;
+  padding: 2rem;
+  align-items: center;
+}
+
+.cajaIzquierda {
+  display: flex;
+  background-color: #e20c0c;
+  width: 10%;  
+  height: 100%;
+}
+
+.cajaMedio {
+  background-color: #e20c0c;
+  display: flex;
+  height: 100%;
+  width: 70%;
+}
+
+.cajaDerecha {
+  background-color: #e20c0c;
+  display: flex;
+  height: 100%;
+  width: 10%;
+}
+
+.AbajoDentro {
+  display: flex;
+  background-color: #ebe711;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  background-color: black;
+  height: 30%;
+  width: 100%;
+}
+
+.Morado {
+  display: flex;
+  background-color: rgb(74, 21, 143);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 60%;
+  padding: 2rem;
+}
+
+.Rosado {
+  display: flex;
+  flex-direction: column;
+  background-color: #a80758;
+  align-items: center;
+  width: 40%;
+  margin-left: 2rem;
+}
+
+.Azul1 {
+  display: flex;
+  background-color: aqua;
+  width: 45%;
+  height: 10%;
+  
+}
+
+.Azul2 {
+  display: flex;
+  background-color: aqua;
+  width: 45%;
+  height: 10%;
+}
+
+.Azul3 {
+  display: flex;
+  background-color: aqua;
+  width: 45%;
+  height: 10%;
+}
+
+.Azul4 {
+  display: flex;
+  background-color: aqua;
+  width: 45%;
+  height: 10%;
+}
+
+.AzulLargo {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(5, 126, 126);
+  width: 100%;
+  height: 10%;
+}
+
+.Amarillo {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  background-color: rgb(233, 210, 7);
+  width: 90%;
+  height: 10%;
+  margin-top: 25px;
+}
+
+.Amarillo2 {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(233, 210, 7);
+  width: 90%;
+  height: 10%;
+  margin-top: 25px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  height: 10%;
+  padding: 1rem;  
+  align-items: center;
+}
+
+.AmarilloFooter {
+  display: flex;
+  background-color: rgb(233, 210, 7);
+  width: 100%;
+  height: 70%;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    background-color: black;
+    padding: 1rem;
+    height: 25%;
+    width: 100%;
+  }
+
+  .cajaPadre {
+    background-color: rgb(24, 11, 207);
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+  }
+  .cajaAbajo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #c46e0d;
+    height: 45%;
+    padding: 2rem;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #d5e40b;
+    padding: 1rem;
+    height: 40%;
+  }
+  .Morado {
+    display: flex;
+    background-color: rgb(74, 21, 143);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem;
+    height: 50%;
+  }
+  .Azul1 {
+    display: flex;
+    background-color: aqua;
+    width: 45%;
+    height: 10%;
+    min-height: 1rem;
+ }
+
+ .Azul2 {
+  display: flex;
+  background-color: aqua;
+  width: 45%;
+  height: 10%;
+  min-height: 1rem;
+}
+
+.Azul3 {
+  display: flex;
+  background-color: aqua;
+  width: 45%;
+  height: 10%;
+  min-height: 1rem;
+}
+
+.Azul4 {
+  display: flex;
+  background-color: aqua;
+  width: 45%;
+  height: 10%;
+  min-height: 1rem;
+}
+
+  .Rosado {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #a80758;
+    width: 100%;
+    height: 50%;
+    margin-top: 25px;
+    margin-left: 2px;
+    height: 35%;
+  }
+
+  .Amarillo {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    background-color: rgb(233, 210, 7);
+    width: 93%;
+    height: 10%;
+    margin-top: 25px;
+    min-height: 2rem;
+  }
+  
+  .Amarillo2 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(233, 210, 7);
+    width: 93%;
+    height: 10%;
+    margin-top: 25px;
+    min-height: 2rem;
+  }
+
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+
+
+  header {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 50%;
+  }
+
+  .cajaPadre {
+    background-color: rgb(24, 11, 207);
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .cajaIzquierda {
+    display: flex;
+    background-color: #e20c0c;
+    width: 100%;  
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .cajaMedio {
+    background-color: #e20c0c;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .cajaDerecha {
+    background-color: #e20c0c;
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  .AbajoDentro {
+    display: flex;
+    background-color: #ebe711;
+    justify-content: center;
+    height: 60%;
+    width: 100%;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #d5e40b;
+    padding: 1rem;
+    height: 35%;
+  }
+  .Morado {
+    display: flex;
+    background-color: rgb(74, 21, 143);
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem;
+    height: 95%;
+  }
+  .Azul1 {
+    display: flex;
+    background-color: aqua;
+    width: 100%;
+    height: 10%;
+    min-height: 1rem;
+ }
+
+  .Azul2 {
+    display: flex;
+    background-color: aqua;
+    width: 100%;
+    height: 10%;
+    min-height: 1rem; 
+  }
+
+  .Azul3 {
+    display: flex;
+    background-color: aqua;
+    width: 100%;
+    height: 10%;
+    min-height: 1rem;
+  }
+
+  .Azul4 {
+    display: flex;
+    background-color: aqua;
+    width: 100%;
+    height: 10%;
+    min-height: 1rem;
+  }
+
+  .Rosado {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #a80758;
+    width: 100%;
+    height: 40%;
+    margin-top: 25px;
+    margin-left: 2px;
+  }
+}

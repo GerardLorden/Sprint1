@@ -1,0 +1,173 @@
+
+
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0%;
+    position: center;
+}
+
+.fondo {
+    flex-direction: row;
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    background-image: url("Imagenes/Activitat Flex - Nivell 2 - fons capçalera.jpg");
+}
+
+.menu {
+    display: flex;
+    padding-top: 65px ;
+}
+.nav {
+    display: flex;
+}
+
+.rocket, .rutas, .hoteles, .vuelos, .Contacto {
+    flex-direction: row;
+    display: flex;
+    margin-right: 60px;
+    
+
+}
+.SocialMedia{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+.facebook_image {
+    height: 70px;
+    width: 70px;   
+}
+.twitter_image {
+    height: 70px;
+    width: 70px;
+
+}
+.header_image{
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+}
+
+.nav_image {
+    display: flex;
+    width: 100vw;
+    height: 100%;
+}
+
+.texto {
+    display: flex;
+    color: blueviolet;
+    justify-content: center;
+    opacity: 0.3;
+    
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+
+.footer_perro {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.footer_mar {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .fondo {
+        flex-direction: row;
+        background-size: cover;
+        background-position: center;
+        height: 30rem;
+        background-image: url("Imagenes/Activitat Flex - Nivell 2 - fons capçalera.jpg");
+    }
+
+    .menu {
+        display: flex;
+        padding-top: 65px ;
+    }
+    .nav {
+        display: flex;
+    }
+    
+    .rocket, .rutas, .hoteles, .vuelos, .Contacto {
+        flex-direction: row;
+        display: flex;
+        margin-right: 60px;
+    
+    }
+    .SocialMedia{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+    }
+    .facebook_image {
+        height: 70px;
+        width: 70px;   
+    }
+    .twitter_image {
+        height: 70px;
+        width: 70px;
+    
+    }
+    .header_image{
+        display: flex;
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    .nav_image {
+        display: flex;
+        width: 100vw;
+        height: 100%;
+    }
+    
+    .texto {
+        display: flex;
+        color: blueviolet;
+        justify-content: center;
+        opacity: 0.3;
+        
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .footer_perro {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+    }
+    
+    .footer_mar {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+        
+    }
+    
+}
